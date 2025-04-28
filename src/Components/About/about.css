@@ -1,0 +1,246 @@
+.about_main{
+    border-bottom: 2px solid #1c68a7;
+    /* color: #3076b0de; */
+    color: #1c68a7;
+
+
+}
+.about_first {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+}
+
+.about_firstImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(30%);
+}
+
+.about_firstH1 {
+    position: absolute;
+    color: #fff;
+    font-size: 2.5rem;
+    text-align: center;
+    animation: h1Head 2s ease-in-out forwards;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.about_second{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 3rem 2rem;
+    background-color: #ffffff;
+}
+.about2_img {
+    /* width: 40%; */
+    /* flex: 1; */
+    /* text-align: center; */
+    padding: 0 1rem;
+  }
+  
+  .about2_img img {
+    width: 90%;
+    height:300px;
+
+  }
+  
+.about2_details{
+    width: 50%;
+    /* flex: 2; */
+    padding: 1rem 2rem;
+    /* animation: h1Head 2s ease-in; */
+    
+}
+
+  
+.about_third,.about_four,.about_five{
+    background:radial-gradient(circle,#cdebf8,#d2ebf3);
+
+}
+.about_third{
+    padding: 4rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.about_third_img {
+    width: 40%;
+  }
+  
+  .about3_img {
+    width: 100%;
+       height: auto;
+       border-radius: 20px;
+  }
+  
+  .about_3_details{
+width: 50%;
+
+  }
+
+  
+  .about_subtitle {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+
+  }
+  
+  .about_text {
+    font-size: 1rem;
+  line-height: 1.6;
+    margin-bottom: 2rem;
+    color: #1c68a7;
+    /* word-spacing: 1px; */
+
+  }
+  
+  .about_list {
+    list-style:square;
+    padding-left: 1.5rem;
+
+  }
+
+  .about_list li{
+    margin-bottom: 0.5rem;
+    
+  }
+  .about_four {
+    padding: 4rem 2rem;
+    background-color: #fff; 
+    /* text-align: center; */
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center; */
+
+  }
+
+
+.about4_list{
+margin-top: 2rem;
+/* text-align: left; */
+}
+
+.about_five {
+    padding: 3rem 2rem;
+    text-align: center;
+  }
+  
+  .about_thankyouImg {
+    width: 100px;
+    margin: 0 auto 1rem;
+    display: block;
+  }
+   
+  
+  @keyframes h1Head {
+    from {
+      transform: translateY(10rem);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .about_second {
+      flex-direction: column;
+      padding: 3rem 1rem;
+    }
+  
+    .about2_img, .about2_details {
+      width: 100%;
+      text-align: center;
+    }
+  
+    /* .about2_img img {
+      width: 70px;
+      margin-bottom: 1rem;
+    } */
+    .about2_img img {
+        width: 90%;
+        height: auto;
+        margin-bottom: 1rem;
+      }
+  
+    .about2_details {
+      padding: 1rem;
+    }
+  
+    .about_firstH1 {
+      font-size: 1.5rem;
+      text-align: center;
+      padding: 0 1rem;
+    }
+  
+    .about_third_wrapper {
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem 1rem;
+    }
+  
+    .about_icon {
+      width: 50px;
+      margin-bottom: 1rem;
+    }
+  
+    .about_four ul,
+    .about_third ul {
+      padding-left: 1.2rem;
+    }
+  
+    .about_list li {
+      font-size: 14px;
+    }
+  
+    .about_five img.about_thankyouImg {
+      width: 60px;
+      margin: 0 auto 1rem;
+      display: block;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .about_first {
+      height: 220px;
+    }
+  
+    .about_firstH1 {
+      font-size: 1.2rem;
+    }
+    
+    .about2_img img {
+        width: 70%;
+        height: 250px;
+        margin-bottom: 1rem;
+      }
+    .about2_details h2,
+    .about_third h2,
+    .about_four h1,
+    .about_five h2 {
+      font-size: 1.3rem;
+    }
+  
+    .about_text,
+    .about_four p {
+      font-size: 14px;
+    }
+  
+    .about_list li {
+      font-size: 13px;
+      line-height: 1.6;
+    }
+  }
+  

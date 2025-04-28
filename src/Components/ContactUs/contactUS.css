@@ -1,0 +1,277 @@
+.Contact1 {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  overflow: hidden;
+}
+
+.contact_Img1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: 0;
+  filter: color brightness(0.9);
+}
+
+.con_info {
+  position: relative;
+  z-index: 1;
+  width: 60%;
+  max-width: 1000px;
+  /* color: white; */
+  color: #3d729d;
+  padding: 1rem 2rem;
+}
+
+.con_heading {
+  font-size: 2rem;
+  font-weight: bold;
+  /* color: #a3d8f4; */
+  margin-bottom: 0.5rem;
+}
+
+.con_headline {
+  font-size: 2.5rem;
+  /* color: #fff; */
+  margin-bottom: 1rem;
+  word-spacing: 0.3rem;
+}
+
+.con_info p {
+  font-size: 1rem;
+  line-height: 1.6;
+  /* color: #f0f0f0; */
+}
+
+
+.contact2 {
+  /* color: #D6F1FF; */
+  /* background-color: #8cc7fba5 ; */
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  padding: 3rem 1.5rem ;
+  border-bottom: 0.6rem solid #1c68a7;
+  border-top: 0.6rem solid #1c68a7;
+  flex-wrap: wrap;
+  /* gap: 3rem; */
+
+}
+
+.conDetails_Div {
+  text-align: center;
+  /* width: 30%; */
+  flex: 1 1 250px;
+  padding: 1rem;
+}
+.conDetails_icon{
+  color:#93bbdc ;
+  width: 30px;
+  height: 25px;
+}
+
+.conDetails_Div span {
+  background-color: #1c68a7;
+  padding: 1.1rem 0.7rem 0.2rem 0.7rem;
+  border-radius: 20%;
+}
+
+.conDetails_h1 {
+  /* padding-top: 2px; */
+  margin: 20px 0 10px;
+  color: #1c68a7;
+
+}
+
+.conDetails_a {
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+flex-wrap: wrap;
+  color: #3d729d;
+  text-decoration: none; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  color: #3d729d;
+  text-decoration: none;
+  text-align: center;
+
+
+}
+.conDetails_a:hover{
+  color: #05a5fc;
+}
+
+/* .visibleLine{
+  border:1px  solid #1c68a7;
+} */
+
+.contact_touch {
+  /* padding: 3rem 1rem;
+  display: flex;       
+  color: #1c68a7;
+  justify-content: space-around;
+  background: linear-gradient(to top,  #c4eefc,#d3ecf8f1);
+  background-color: #b9deeadd; */
+  padding: 3rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  color: #1c68a7;
+  justify-content: space-around;
+  background: linear-gradient(to top, #c4eefc, #d3ecf8f1);
+
+}
+
+ .getInTouch_info {
+  display: flex;        
+  flex-direction: column;
+margin-top: 3rem;
+/* flex: 1 1 300px; */
+
+}
+
+.getInTouch_logo {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 2.3rem;
+  align-items: center;
+
+}
+
+.getInTouch_icon {
+  width: 20px; 
+}
+.getInTouch_head{
+  font-weight: 600;
+}
+.Contactinf_h1  {
+  font-size: 2.3rem;
+  margin-bottom: 0.6rem;
+}
+
+.info_p {
+  font-size: 14px;
+} 
+
+.contact_form {
+  /* width: 40%; */
+  flex: 1 1 300px;
+  max-width: 500px;
+  margin-top: 2rem;
+}
+  
+/* .getInTouch_img {
+  width: 35%;
+   height:calc(100%-10%); 
+  border-left: 1px solid black;
+  
+}
+
+.contactTouchImg {
+  width: 100%;
+  height: auto;
+  filter: blur(1px) brightness(0.8); 
+  background: #D6F1FF;  
+  mix-blend-mode: multiply; 
+  object-position: center;
+}
+ */
+
+@media (max-width: 1024px) {
+  
+  .con_headline {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .Contact1 {
+    height: 400px;
+    justify-content: flex-end;
+    /* text-align: center; */
+  }
+  .con_info {
+    padding: 1rem;
+    /* align-items: center; */
+    /* text-align: center; */
+  }
+  .con_headline {
+    font-size: 1.8rem;
+  }
+  .con_heading {
+    font-size: 1.5rem;
+  }
+  .contact2 {
+    align-items: center;
+  }
+
+  .contact_touch {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact_form {
+    width: 100%;
+    margin-top: 2rem;
+  }
+  .getInTouch_info {
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .Contact1 {
+    height: 350px;
+  }
+ 
+  .con_info {
+    width: 70%;
+    text-align: center;
+}
+  .con1_para,.con_heading {
+    display: none;
+  }
+  .con_headline {
+    font-size: 1.6rem;
+  }
+  .con_heading {
+    font-size: 1.2rem;
+  }
+  .con_info p {
+    font-size: 0.9rem;
+  }
+  .Contactinf_h1 {
+    font-size: 1.8rem;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

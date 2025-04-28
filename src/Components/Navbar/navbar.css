@@ -1,0 +1,130 @@
+/* Navbar & Footer: Deep Ocean Blue (#4682B4) for a strong look.
+Background: Sky Blue (#87CEEB) or Cloud White (#F0F8FF) for a light, clean feel.
+Buttons: Turquoise (#40E0D0) for action buttons like "Buy Now."
+Text: Dark Blue (#1E3A5F) for headings and Gray-Blue (#5F7A8A) for body text.
+Highlights: Golden Sun (#FFD700) and Deep Gold (#FFAA00) for offers and CTA emphasis. */
+:root {
+  --NavBGColor: #3d729d;
+  --NavTextColor: #FFFFFF;
+  /* --accent-color: #FFFFFF; */
+  --btnColor: #40E0D0;
+  --accent-color-dark: #4E4E4E;
+  --bgColor: #87CEEB;
+  --bgColor2: #F0F8FF;
+  --HoverText: #FFD700;
+}
+
+
+.url_section {
+  width: 100%;
+  padding: 1.2rem 3rem 1.1rem;
+  /* background-color: var(--NavBGColor); */
+  background-color: #dcf0f9;
+  display: flex;
+  font-weight: 600;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+.url_logo p{
+  color: #2c5271;
+  font-size: large;
+  }
+/* .url_link {
+  display: grid; 
+   grid-template-columns:repeat(4,120px) ;
+ 
+} */
+.url_link {
+  display: grid
+;
+  grid-template-columns: repeat(4, auto);
+  gap: 2.5rem;}
+.url_link a {
+  text-decoration: none;
+  color: #2c5271;
+
+}
+
+.url_link a:hover {
+  color: #40bff1c0;
+}
+
+.product_menu{
+  display: inline-block;
+}
+
+.dropdown{
+  gap: 8px;
+  position: absolute;
+  /* position: static; */
+  background-color: white;
+  box-shadow: 0px 10px 15px black ;
+  border-radius: 5px;
+  padding: 1rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  min-width:max-content;
+  z-index: 10;
+  /* left: 0; */
+} 
+
+/* @media screen and (max-width: 768px) { */
+@media (max-width: 768px) {
+
+  .url_section {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+.url_logo{
+  margin-bottom: 1rem;
+}
+  .url_logo p {
+    font-size: 1.2rem;
+  }
+
+  
+}
+/* @media (max-width: 530px) {
+  .url_section{
+    text-align: center;
+  }
+  .url_logo{
+    margin-bottom: 1.3rem;
+  }
+  .url_link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      /* grid-template-columns: repeat(2, 120px); */
+      /* text-align: center; */
+      /* padding: 2px 2px 0; *
+  }
+  .url_link a{
+    margin-bottom: 0.5rem;
+  }
+} */
+
+/* @media screen and (max-width: 480px) { */
+@media (max-width: 480px) {
+
+  .url_link {
+    display: grid;
+    grid-template-columns: 1fr;  
+    gap: 10px; 
+    margin-top: 10px;
+  }
+
+  .url_section {
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .dropdown{
+    width: 90%;
+    /* align-items: center; */
+    left: 0;
+  }
+}
