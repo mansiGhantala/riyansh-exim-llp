@@ -12,7 +12,9 @@ const About = () => {
 
         <section className="about_second">
           <div className="about2_img">
-            <img src="./export.jpg" alt="about us2" />
+        <video src="./favicon/meeting.mp4" height='255' autoplay loop ></video>
+
+            {/* <img src="./export.jpg" alt="about us2" /> */}
           </div>
           <div className="about2_details">
             <h2 className="about_subtitle">Pure, Organic, and Fresh – From Our Farms to Your Home!</h2>
@@ -20,8 +22,8 @@ const About = () => {
 <p className="about_text">We are deeply grateful to our customers and partners who trust us to bring the taste of India into their homes. Your continued support inspires us to grow, innovate, and stay true to our roots — thank you for being a part of our journey</p>        
 
           </div>
-
         </section>
+        {/* <video src="./meeting.mp4" height='255'>mh</video> */}
         <section className="about_third">
            <div className="about_3_details">
             <h2 className="about_subtitle">Our Vision</h2>
@@ -37,15 +39,16 @@ const About = () => {
               <li>Promote India's food heritage with honesty and heart.</li>
             </ul>
           </div>
-          <div className="about_third_img">
+          {/* <div className="about_third_img">
             <img src="./favicon/contactbg.jpg" alt="vision" className="about3_img" />
-          </div>
+          </div> */}
          
         </section>
         <section className="about_four">
+
           <h1 className="about_subtitle">Why Choose Us</h1>
-          <p lassName="about_text">We are Exporting the best quality products around the world, You need the best product on time you are at the right place # RIYANSH Exim LLP.</p>
-         <div className="about4_list">
+          <p lassName="about_text">We are Exporting the best quality products around the world, You need the best product on time you are at the right place </p><span> # RIYANSH Exim LLP.</span>
+          <div className="about4_list">
          <ul className="about_list">
             <li>100% organic & homemade ingredients</li>
             <li>Direct sourcing from Indian farms</li>

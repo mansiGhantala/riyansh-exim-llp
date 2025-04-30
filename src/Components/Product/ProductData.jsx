@@ -75,7 +75,8 @@ export const productData = [
         title: 'Pulses',
         img: '/favicon/product/pulses.jpg',
         subTitle: `Pure Pulses, Global Taste`,
-        details: `Grown with care and packed with protein, fiber, and essential nutrients, our premium-quality pulses bring authentic taste and nourishment to every meal. Carefully sourced from the finest farms, they ensure purity, freshness, and rich flavor in every bite. Experience the goodness of nature with pulses that meet the highest standards of quality and nutrition.`,
+        details:['Grown with care and packed with protein, fiber, and essential nutrients, our premium-quality pulses bring authentic taste and nourishment to every meal.',' Carefully sourced from the finest farms, they ensure purity, freshness, and rich flavor in every bite.',' Experience the goodness of nature with pulses that meet the highest standards of quality and nutrition.']
+        ,
         subProducts: [
             {
                 category: 'black-gram',
@@ -183,7 +184,13 @@ export const productData = [
                 subTitle: `🧅 Onion – A Kitchen Essential`,
                 details: `Onion is one of the most widely used vegetables around the world, known for its strong aroma and distinct flavor. It is a staple ingredient in countless cuisines, especially in Indian, Mediterranean, and Asian dishes. Belonging to the Allium family, onion is not just valued for its taste, but also for its impressive health benefits. It is rich in antioxidants, particularly quercetin, which has anti-inflammatory and immune-boosting properties. Onions are also a good source of vitamin C, B vitamins, and minerals such as potassium and manganese. Whether used raw in salads, sautéed in curries, or caramelized in gravies, onions enhance the taste and nutritional value of any dish. From red, white, and yellow onions to spring onions and shallots, each type brings a unique flavor and texture to food. Onions are also used in traditional medicine and home remedies for their antibacterial and heart-friendly qualities, making them truly versatile and indispensable in both kitchens and natural health care.`,
 
-            }
+            },{ category: 'jaggery',
+            path: '/product/spices/jaggery',
+            title: 'Jaggery',
+            img: '/favicon/subproduct/spices/jaggery.jpg',
+            subTitle: `Pure Jaggery, Pure Goodness`,
+            details: `Jaggery, known as “Gur” in India, is a traditional, unrefined natural sweetener made from sugarcane or palm sap. Unlike processed sugar, jaggery retains essential minerals like iron, magnesium, and potassium, making it a healthier choice for sweetening and energy. Widely used in sweets, desserts, beverages, and Ayurvedic remedies, Indian jaggery is gaining global popularity for its earthy taste and nutritional benefits.`,
+            },
         ],
     }, {
         category: 'ground-spices',
@@ -302,15 +309,7 @@ export const productData = [
         subTitle: `Soft, Strong, Standardized`,
         details: `we supply contamination-free cotton bales with excellent fiber strength and uniformity.Each bale is precision-packed for smooth processing and maximum yield in spinning mills.Sourced from premium farms and processed under strict quality control.Consistency, purity, and reliability — everything your production demands.`,
         // subProducts: []
-    }, {
-            category: 'jaggery',
-            path: '/product/jaggery',
-            title: 'Jaggery',
-            img: '/favicon/product/jaggery.jpg',
-            subTitle: `Pure Jaggery, Pure Goodness`,
-            details: `Jaggery, known as “Gur” in India, is a traditional, unrefined natural sweetener made from sugarcane or palm sap. Unlike processed sugar, jaggery retains essential minerals like iron, magnesium, and potassium, making it a healthier choice for sweetening and energy. Widely used in sweets, desserts, beverages, and Ayurvedic remedies, Indian jaggery is gaining global popularity for its earthy taste and nutritional benefits.`,
-            subProducts: []
-    }
+    }, 
     // {
     //     category: '',
     //     path: '/product/',

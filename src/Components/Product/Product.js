@@ -23,6 +23,12 @@ const ProductPage = () => {
         <div className="products_head">
           <h2 className="proMain_heading">{product.subTitle}</h2>
           <p className="proMain_details">{product.details}</p>
+         
+          {/* <p className="proMain_details">{product.details[0]}</p>
+          <p className="proMain_details">{product.details[1]}</p>
+          <p className="proMain_details">{product.details[2]}</p> */}
+
+
         </div>
       </section>
       <section className="home_sec1">

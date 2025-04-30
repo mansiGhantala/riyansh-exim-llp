@@ -45,6 +45,7 @@
     /* flex: 1; */
     /* text-align: center; */
     padding: 0 1rem;
+    border-radius: 20px;
   }
   
   .about2_img img {
@@ -62,15 +63,15 @@
 }
 
   
-.about_third,.about_four,.about_five{
+.about_third,.about_five{
     background:radial-gradient(circle,#cdebf8,#d2ebf3);
 
 }
 .about_third{
-    padding: 4rem 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 4rem 3rem 4rem 4rem;
 
 }
 
@@ -85,7 +86,7 @@
   }
   
   .about_3_details{
-width: 50%;
+width: 70%;
 
   }
 
@@ -106,7 +107,7 @@ width: 50%;
   }
   
   .about_list {
-    list-style:square;
+    /* list-style:none; */
     padding-left: 1.5rem;
 
   }
@@ -116,21 +117,21 @@ width: 50%;
     
   }
   .about_four {
-    padding: 4rem 2rem;
+     width: 100%;
+    padding: 4rem 3rem 4rem 4rem;
     background-color: #fff; 
-    /* text-align: center; */
-    /* display: flex;
-    justify-content: space-around;
-    align-items: center; */
-
+/* display: flex; */
+/* justify-content: center; */
+/* align-items: center; */
   }
-
 
 .about4_list{
 margin-top: 2rem;
-/* text-align: left; */
+/* text-align: ; */
 }
-
+.about4_list .about4_list{
+  list-style: circle;
+}
 .about_five {
     padding: 3rem 2rem;
     text-align: center;
