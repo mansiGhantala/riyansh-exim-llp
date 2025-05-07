@@ -19,28 +19,23 @@ Highlights: Golden Sun (#FFD700) and Deep Gold (#FFAA00) for offers and CTA emph
   width: 100%;
   padding: 1.2rem 3rem 1.1rem;
   /* background-color: var(--NavBGColor); */
-  background-color: #dcf0f9;
+  /* background-color: #dcf0f9; */
+  background-color: #e6f4fb;
+    font-size:large;
   display: flex;
   font-weight: 600;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-
-
 .url_logo p{
   color: #2c5271;
-  font-size: large;
   }
-/* .url_link {
-  display: grid; 
-   grid-template-columns:repeat(4,120px) ;
- 
-} */
+
 .url_link {
-  display: grid
-;
+  display: grid;
   grid-template-columns: repeat(4, auto);
-  gap: 2.5rem;}
+  gap: 2.5rem;
+}
 .url_link a {
   text-decoration: none;
   color: #2c5271;
@@ -70,9 +65,11 @@ Highlights: Golden Sun (#FFD700) and Deep Gold (#FFAA00) for offers and CTA emph
   /* left: 0; */
 } 
 
-/* @media screen and (max-width: 768px) { */
 @media (max-width: 768px) {
 
+  .url_link {
+      font-size: medium;
+  }
   .url_section {
     width: 100%;
     flex-direction: column;
@@ -84,31 +81,10 @@ Highlights: Golden Sun (#FFD700) and Deep Gold (#FFAA00) for offers and CTA emph
   .url_logo p {
     font-size: 1.2rem;
   }
-
-  
 }
-/* @media (max-width: 530px) {
-  .url_section{
-    text-align: center;
-  }
-  .url_logo{
-    margin-bottom: 1.3rem;
-  }
-  .url_link{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-      /* grid-template-columns: repeat(2, 120px); */
-      /* text-align: center; */
-      /* padding: 2px 2px 0; *
-  }
-  .url_link a{
-    margin-bottom: 0.5rem;
-  }
-} */
+ 
 
-/* @media screen and (max-width: 480px) { */
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
 
   .url_link {
     display: grid;
@@ -120,6 +96,7 @@ Highlights: Golden Sun (#FFD700) and Deep Gold (#FFAA00) for offers and CTA emph
   .url_section {
     padding: 1rem;
     text-align: center;
+    font-size: medium;
   }
   
   .dropdown{

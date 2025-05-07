@@ -15,10 +15,6 @@ footer {
 .firstPoint {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr 2fr ;
-  /* grid-template-columns: repeat(auto-fill, minmax(15rem , 20rem )); */
-  /* grid-template-columns: 30% 20% 20% 30%; */
-/* display: flex; */
-/* justify-content: space-around; */
   margin: 2.5rem 2rem;
   gap:10% ;
 }
@@ -66,7 +62,6 @@ footer {
 }
  .location_link {
   margin-top: 0.8rem;
-  /* box-sizin; */
   border: none;
   background-color: #e6f4fb;
   cursor: pointer;
@@ -87,17 +82,6 @@ footer {
   font-size: 13px;
   color: #3d729d;
   border-radius: 5px;
-}
-
-@media (max-width: 768px) {
-  .firstPoint {
-    grid-template-columns: 2fr;
-    text-align: center;
-  }
-
-  .firstPoint_div {
-    align-items: center;
-  }
 }
  .map-popup {
   position: fixed;
@@ -141,15 +125,80 @@ footer {
   background-color: #000000a3;
   color: white;
 
+} 
+
+@media (max-width: 768px) {
+  .firstPoint {
+    display: grid;
+  grid-template-columns: 1fr 1fr ;
+
+    /* flex-direction: column; */
+    margin: 2rem 1rem;
+    gap: 2rem;
+  }
+
+  .firstPoint_div {
+    width: 100%;
+  }
+
+  .firstPoint_div h3 {
+    font-size: 18px;
+    margin-bottom: 1rem;
+  }
+
+  .firstPoint_div p,
+  .firstPoint_div li {
+    font-size: 13.5px;
+  }
+
+  .location_link {
+    font-size: 13.5px;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .endPoint {
+    font-size: 12px;
+    padding: 12px;
+  }
 }
 
-/* @keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: scale(0.97);
+
+@media (max-width: 480px) {
+  .firstPoint {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 1.5rem 1rem;
   }
-  to {
-    opacity: 1;
-    transform: scale(1);
+
+  .firstPoint_div h3 {
+    font-size: 16px;
+    margin-bottom: 0.8rem;
   }
-}  */
+
+  .firstPoint_div p,
+  .firstPoint_div li,
+  .location_link {
+    font-size: 13px;
+  }
+
+  .location_link span:last-child {
+    line-height: 1.4;
+  }
+
+  .endPoint {
+    font-size: 11.5px;
+    padding: 10px;
+  }
+
+  .map-content {
+    width: 95%;
+    padding: 8px;
+  }
+
+  .close-btn {
+    font-size: 18px;
+    padding: 1px 5px;
+  }
+}

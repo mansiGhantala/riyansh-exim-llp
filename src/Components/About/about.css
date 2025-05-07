@@ -3,41 +3,20 @@
     /* color: #3076b0de; */
     color: #1c68a7;
 
+    /* padding: 4rem 3rem 4rem 4rem; */
 
 }
-.about_first {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 300px;
+.container{
+  padding:  4rem;
 }
-
-.about_firstImg {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    filter: brightness(30%);
-}
-
-.about_firstH1 {
-    position: absolute;
-    color: #fff;
-    font-size: 2.5rem;
-    text-align: center;
-    animation: h1Head 2s ease-in-out forwards;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
 .about_second{
     display: flex;
     /* flex-wrap: wrap; */
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
+    /* align-items: center; */
     width: 100%;
-    padding: 3rem 2rem;
+    gap: 20px;
+    /* padding: 3rem 2rem; */
     background-color: #ffffff;
 }
 .about2_img {
@@ -47,17 +26,20 @@
     padding: 0 1rem;
     border-radius: 20px;
   }
-  
-  .about2_img img {
+  .about2_img video{
+ width: 270px;
+ height: auto;
+  }
+
+  /* .about2_img img {
     width: 90%;
     height:300px;
-
-  }
+  } */
   
 .about2_details{
-    width: 50%;
+    width: 70%;
     /* flex: 2; */
-    padding: 1rem 2rem;
+    /* padding: 1rem 2rem; */
     /* animation: h1Head 2s ease-in; */
     
 }
@@ -68,14 +50,24 @@
 
 }
 .about_third{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 4rem 3rem 4rem 4rem;
+  width: 100%;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    /* padding: 4rem 3rem 4rem 4rem; */
+    gap:2rem;
 
 }
-
-.about_third_img {
+.about_3both{
+  width: 80%;
+}
+/* .about3_1{
+  width: 40%;
+}
+.about3_2{
+  width: 50%;
+} */
+/* .about_third_img {
     width: 40%;
   }
   
@@ -83,12 +75,12 @@
     width: 100%;
        height: auto;
        border-radius: 20px;
-  }
+  } */
   
-  .about_3_details{
+  /* .about_3_details{
 width: 70%;
 
-  }
+  } */
 
   
   .about_subtitle {
@@ -103,7 +95,6 @@ width: 70%;
     margin-bottom: 2rem;
     color: #1c68a7;
     /* word-spacing: 1px; */
-
   }
   
   .about_list {
@@ -118,25 +109,29 @@ width: 70%;
   }
   .about_four {
      width: 100%;
-    padding: 4rem 3rem 4rem 4rem;
+    /* padding: 4rem 3rem 4rem 4rem; */
     background-color: #fff; 
-/* display: flex; */
-/* justify-content: center; */
-/* align-items: center; */
   }
 
 .about4_list{
 margin-top: 2rem;
-/* text-align: ; */
 }
-.about4_list .about4_list{
+.about4_list{
   list-style: circle;
 }
 .about_five {
-    padding: 3rem 2rem;
-    text-align: center;
+  width: 100%;
+    /* padding: 3rem 2rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
-  
+  .about_five p{
+    width: 87%;
+    text-align:center;
+
+  }
   .about_thankyouImg {
     width: 100px;
     margin: 0 auto 1rem;
@@ -144,7 +139,7 @@ margin-top: 2rem;
   }
    
   
-  @keyframes h1Head {
+  /* @keyframes h1Head {
     from {
       transform: translateY(10rem);
       opacity: 0;
@@ -154,7 +149,7 @@ margin-top: 2rem;
       opacity: 1;
     }
   }
-  
+   */
   @media (max-width: 768px) {
     .about_second {
       flex-direction: column;
@@ -186,12 +181,12 @@ margin-top: 2rem;
       padding: 0 1rem;
     }
   
-    .about_third_wrapper {
+    /* .about_third_wrapper {
       flex-direction: column;
       align-items: center;
       padding: 2rem 1rem;
     }
-  
+   */
     .about_icon {
       width: 50px;
       margin-bottom: 1rem;
@@ -206,7 +201,7 @@ margin-top: 2rem;
       font-size: 14px;
     }
   
-    .about_five img.about_thankyouImg {
+  .about_thankyouImg {
       width: 60px;
       margin: 0 auto 1rem;
       display: block;
@@ -214,6 +209,9 @@ margin-top: 2rem;
   }
   
   @media (max-width: 480px) {
+    .about_list , .about_text{
+      font-size: 14px;
+    }
     .about_first {
       height: 220px;
     }
@@ -221,12 +219,15 @@ margin-top: 2rem;
     .about_firstH1 {
       font-size: 1.2rem;
     }
-    
-    .about2_img img {
+    .about2_img video{
+      width: 180px;
+      height: auto;
+       }
+    /* .about2_img img {
         width: 70%;
         height: 250px;
         margin-bottom: 1rem;
-      }
+      } */
     .about2_details h2,
     .about_third h2,
     .about_four h1,
@@ -234,14 +235,14 @@ margin-top: 2rem;
       font-size: 1.3rem;
     }
   
-    .about_text,
+    /* .about_text,
     .about_four p {
       font-size: 14px;
-    }
+    } */
   
-    .about_list li {
+    /* .about_list li {
       font-size: 13px;
       line-height: 1.6;
-    }
+    } */
   }
   

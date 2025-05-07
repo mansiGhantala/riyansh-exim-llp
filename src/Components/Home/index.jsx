@@ -32,7 +32,8 @@ const Home = () => {
 <h2 className="home2_h2">Naturally Made, Internationally Loved</h2>
 <p className="about_text">At Riyansh Exim LLP , we proudly export premium-quality organic and homemade Indian products to customers around the world. From traditionally crafted ghee and raw forest honey to handpicked spices, pulses, grains, and cold-pressed oils — our range celebrates India’s rich food heritage with a modern, health-conscious touch.</p>
 <p className="about_text">We partner directly with farmers and local artisans to ensure every product is fresh, pure, and ethically made. Each item reflects our commitment to sustainability, food safety, and honest, small-batch production — delivering real flavor and real value to global kitchens.</p>
-</div>     <div>
+</div>    
+ <div className="home2_img_div">
         <img className="home2_img" src="/favicon/home2.jpg" alt="about export"/>
         </div>
         </section>
