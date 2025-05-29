@@ -7,7 +7,7 @@ const About = () => {
      <main className="products_main">
         <div className="head_div">
           <img src="./favicon/homebg2.jpg" alt="about_us " />
-          <h1 className="product_heading">for testing </h1>
+          <h1 className="product_heading">About Us</h1>
         </div>
       </main>
       <main className="about_main">
