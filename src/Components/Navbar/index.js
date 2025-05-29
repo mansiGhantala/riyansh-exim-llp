@@ -22,7 +22,7 @@ const Navbar = () => {
             <NavLink to='/product/grains'>Grains</NavLink>
             <NavLink to='/product/pulses'>Pulses</NavLink>
             <NavLink to='/product/spices'>Spices</NavLink>
-            <NavLink to='/product/hairwash-powder'>Hairwash Powder</NavLink>
+            <NavLink to='/product/hair-washPowder'>Hairwash Powder</NavLink>
             <NavLink to='/product/ground-spices'>Ground Spices</NavLink>
             <NavLink to='/product/dry-fruits'>Dry Fruits</NavLink>
             <NavLink to='/product/oil-seeds'>Oil Seeds</NavLink>

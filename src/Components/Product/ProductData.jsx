@@ -310,14 +310,15 @@ export const productData = [
         details: `we supply contamination-free cotton bales with excellent fiber strength and uniformity.Each bale is precision-packed for smooth processing and maximum yield in spinning mills.Sourced from premium farms and processed under strict quality control.Consistency, purity, and reliability — everything your production demands.`,
         // subProducts: []
     }, 
-    // {
-    //     category: '',
-    //     path: '/product/',
-    //     title: '',
-    //     img: '/favicon/product/.jpg',
-    //     subTitle: ``,
-    //     details: ``,
-    //     subProducts: [
+    {
+        category: 'hair-washPowder',
+        path: '/product/hair-washPowder',
+        title: 'Hair Wash POwder',
+        img: '/favicon/product/.jpg',
+        subTitle: `hairwash aboutekdo`,
+        details: `its a hair wash powder. the product its mosly use more than one time in a week. it is made from natural ingredients and it is very good for hair. it is a herbal product and it is very good for hair growth and hair health.`,
+        // subProducts: []
+        }
     //         {
     //             category: '',
     //             path: '/product/',

@@ -36,6 +36,7 @@ const Footer = () => {
               <li><NavLink to="/product/ground-spices">Ground Spices</NavLink></li>
               <li><NavLink to="/product/dry-fruits">Dry Fruits</NavLink></li>
               <li><NavLink to="/product/cotton-bales">Cotton Bales</NavLink></li>
+              <li><NavLink to="/product/hair-washPowder">Hairwash Powder</NavLink></li>
 
             </ul>
           </div>
@@ -80,9 +81,12 @@ const Footer = () => {
                 <MdOutlineCall /><span>+91 96873 17633</span></a></li>
               <li>
                 {/* <a href="mailto:mansighantala@gmail.com"><span ><MdOutlineMail /></span><span>riyansh.exim.llp@gmail.com</span></a> */}
-                <a href="mailto:riyansh.exim.llp@gmail.com?subject=Inquiry from Website">
-                <MdOutlineMail />
-                  <span>riyansh.exim.llp@gmail.com</span></a></li>
+                {/* <a href="mailto:riyansh.exim.llp@gmail.com?subject=Inquiry from Website"> */}
+                <a  href="https://mail.google.com/mail/?view=cm&fs=1&to=riyansh.exim.llp@gmail.com&su=Inquiry%20from%20Website" 
+
+                 target="_blank" rel="noopener noreferrer"> <MdOutlineMail />
+                  <span>riyansh.exim.llp@gmail.com</span>
+                  </a></li>
               {/* <li><a href="www:surat/gujarat/india.com" ><span><MdOutlineLocationOn /></span><span>I-604,Shree nidhi residency,mota varachha, surat-394101, gujarat, india.</span></a></li> */}
                <li>
 
@@ -104,7 +108,7 @@ const Footer = () => {
                       allowFullScreen=""
                       loading="lazy"
                       referrerPolicy="no-referrer-when-downgrade"
-                      title="Google Map Location"
+                      title="ShreeNidhi Residency Map"
                     ></iframe>
                       </div>
                 </div>

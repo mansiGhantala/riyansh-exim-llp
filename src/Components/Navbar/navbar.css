@@ -1,8 +1,3 @@
-/* Navbar & Footer: Deep Ocean Blue (#4682B4) for a strong look.
-Background: Sky Blue (#87CEEB) or Cloud White (#F0F8FF) for a light, clean feel.
-Buttons: Turquoise (#40E0D0) for action buttons like "Buy Now."
-Text: Dark Blue (#1E3A5F) for headings and Gray-Blue (#5F7A8A) for body text.
-Highlights: Golden Sun (#FFD700) and Deep Gold (#FFAA00) for offers and CTA emphasis. */
 :root {
   --NavBGColor: #3d729d;
   --NavTextColor: #FFFFFF;

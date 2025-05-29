@@ -14,7 +14,7 @@ const Home = () => {
           <h1 className="home_h1">Product</h1>
           <div className="home1_produts">
           {productData.map((product,index)=>(
-            <article  className="home1_product_box" key={index}>
+            <div  className="home1_product_box" key={index}>
               <NavLink to={product.path}>
                 <img
                   className="home1_product_img"
@@ -22,7 +22,7 @@ const Home = () => {
             alt={product.category} />
                 <p className="home1_product_p">{product.title}</p>
               </NavLink>
-            </article>
+            </div>
           ))}
           </div>
         </section>

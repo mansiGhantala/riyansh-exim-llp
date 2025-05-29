@@ -9,7 +9,7 @@
   background-blend-mode: darken;
   background-color: #00000090;
   height: 100vh;
-  width: 100%;
+  width: 100%;  
   position: relative;  
 }
 
@@ -135,10 +135,6 @@ max-width: 100%;
 .home_sec3{
   margin: 0 4% 5%;
 }
- /* .home3_partners{
-padding:;
- } */
-
 .home3_infoLink{
   max-width: 250px;
   margin-left: 7% ;
@@ -232,6 +228,9 @@ justify-content: center;
 }
 
 @media (max-width: 480px) {
+  .home_headLine{
+    font-size: 1.5rem;
+  }
   .home2_h2 {
     font-size: 1.2rem; 
   }
